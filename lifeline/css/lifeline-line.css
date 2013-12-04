@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+
+.line-container{
+	-fx-padding:50px 0px 0px 0px;
+	-fx-spacing:10;
+}
+
+.line{
+	
+	-fx-opacity:1;
+}

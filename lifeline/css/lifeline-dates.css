@@ -1,0 +1,49 @@
+@CHARSET "ISO-8859-1";
+
+.date-line{
+	
+}
+
+.date-line Label{
+	-fx-alignment: top-left;
+	-fx-label-padding:2 0 0 10;
+	-fx-text-fill:rgb(0,0,0,0);
+}
+
+.dates-default Label{
+	-fx-text-fill:rgb(0,0,0,0);
+}
+
+.dates-main Label{
+	-fx-text-fill:rgb(150,150,150,1);
+	-fx-font-weight:lighter;
+}
+
+
+.date-line Pane{
+	-fx-border-style:solid;	
+}
+
+.dates-default Pane{
+	-fx-border-color:rgb(0,0,0,0);
+	-fx-border-width:0 0 0 0;
+}
+
+.dates-main Pane{
+	-fx-border-color:rgb(200,200,200);
+	-fx-border-width:0 1 0 0.5;
+}
+
+.dates-parent Pane{
+	-fx-border-color:rgb(150,150,150);
+	-fx-border-width:0 1 0 1;
+}
+
+.dates-child Pane{
+	-fx-border-color:rgb(230,230,230);
+	-fx-border-width:0 0.5 0 ;
+}
+
+.container-date{
+	
+}

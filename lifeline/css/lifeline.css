@@ -1,0 +1,17 @@
+@CHARSET "ISO-8859-1";
+
+.root { 
+	-fx-focus-color: transparent;
+	-fx-background-color:white;
+}
+
+GridPane.main-frame{
+	-fx-background-color: white;
+	-fx-alignment:top-center;
+}
+
+GridPane.main-frame Label.h1{
+	 -fx-alignment: top-left;
+	 -fx-font-size:2em;
+	 -fx-label-padding:1em 0.0em 1em 0em;
+}
